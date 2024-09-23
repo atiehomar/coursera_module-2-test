@@ -1,1 +1,150 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+}
+h1 {
+	text-align: center;
+	margin-bottom: 75px;
 
+}
+
+
+@media (min-width: 992px ) {
+	.col-lg-4{
+		float: left;
+		border: 1px solid black;
+		width:31.55%;
+		height: 150px;
+		box-sizing: border-box;
+		
+	}
+	.s1{
+		background-color: blue;
+
+	}
+
+	.s2{
+		background-color: lightpink;
+
+	}
+
+	.s3{
+		background-color: yellowgreen;
+
+	}
+	section {
+		margin: 7px;
+
+	}
+.s1{
+	position: relative;
+}
+.top {
+            background-color: brown;
+            padding: 10px; 
+            float: right;
+            clear: both; 
+        }
+        p{
+        	float: right;
+        	padding: 5px;
+        }
+        .s2>.top{
+        	background-color: red;
+        }
+        .s3>.top{
+        	background-color: purple;
+        }
+        
+}
+@media (min-width:768px ) and (max-width:991px){
+
+	.col-md-6,.col-md-12 {
+		float: left;
+		border: 1px solid black;
+		width:45.5%;
+		height: 150px;
+		box-sizing: border-box;
+}
+.col-md-12{
+	width:93.5%;
+}
+.s1{
+	position: relative;
+}
+.top {
+            background-color: brown;
+            padding: 10px; 
+            float: right;
+            clear: both; 
+        }
+        p{
+        	float: right;
+        	padding: 5px;
+        	}	
+        	section {
+		margin:10px;
+
+	}
+	.s1{
+		background-color: blue;
+
+	}
+
+	.s2{
+		background-color: lightpink;
+
+	}
+
+	.s3{
+		background-color: yellowgreen;
+
+	}
+}
+@media (max-width:767px){
+	.col-sm-12{
+		float: left;
+		border: 1px solid black;
+		width:90%;
+		height: 150px;
+		box-sizing: border-box;
+	}
+	section {
+		margin:20px;
+
+	}
+	.s1{
+		background-color: blue;
+
+	}
+
+	.s2{
+		background-color: lightpink;
+
+	}
+
+	.s3{
+		background-color: yellowgreen;
+
+	}
+.s1{
+	position: relative;
+}
+.top {
+            background-color: brown;
+            padding: 10px; 
+            float: right;
+            clear: both; 
+        }
+        p{
+        	float: right;
+        	padding: 5px;
+        }
+        .s2>.top{
+        	background-color: red;
+        }
+        .s3>.top{
+        	background-color: purple;
+        }
+}
